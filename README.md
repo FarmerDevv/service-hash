@@ -2,7 +2,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](   https://python.org   )
 [![License](https://img.shields.io/badge/Lisans-GPLv3-red?logo=gnu)](   https://www.gnu.org/licenses/gpl-3.0   )
 [![Platform](https://img.shields.io/badge/Platform-Windows%207%2F10%2F11-orange   )](https://microsoft.com/windows   )
-[![PyQt5](https://img.shields.io/badge/Aray   üz-PyQt5-purple)](https://www.riverbankcomputing.com/software/pyqt/   )
+[![PyQt5](https://img.shields.io/badge/Arayüz-PyQt5-purple)](https://www.riverbankcomputing.com/software/pyqt/   )
 
 Yetkili USB çıkarıldığı anda Windows iş istasyonunuzu kilitleyen, çekirdek seviyesinde klavye/fare engellemesi, kayıt defteri koruması ve şifre ile korunan yönetim sunan gerçek zamanlı bir USB token kimlik doğrulama sistemidir.
 
