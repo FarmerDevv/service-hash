@@ -282,33 +282,5 @@ HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\
 
 ---
 
-## 🔧 Teknik Detaylar
-
-### Mimari Yapı
-```
-Service Hash Architecture
-│
-├── GUI Katmanı (PyQt5)
-│   ├── Sistem Tepsisi
-│   ├── Kurulum Sihirbazı
-│   ├── Yönetim Paneli
-│   └── Bildirimler
-│
-├── İş Mantığı Katmanı
-│   ├── USB İzleme Servisi
-│   ├── Kimlik Doğrulama
-│   ├── Günlük Yönetimi
-│   └── Yapılandırma Yönetimi
-│
-├── Güvenlik Katmanı
-│   ├── Klavye/Fare Hook'ları
-│   ├── Kayıt Defteri Yönetimi
-│   ├── Şifreleme (SHA-256)
-│   └── Erişim Kontrolü
-│
-└── Sistem Katmanı (Windows API)
-    ├── WMI (USB İzleme)
-    ├── Win32 API (Hook'lar)
-    └── Registry API
-Kullanılan Teknolojiler
-TeknolojiAmaçDetayPyQt5GUI FrameworkKullanıcı arayüzü ve sistem tepsisipywin32Windows APISistem hook'ları ve kayıt defteriWMIUSB İzlemeGerçek zamanlı cihaz algılamaSHA-256KriptografiUSB token hash'lemeJSONVeri DepolamaYapılandırma ve günlükler
+⚠️son uyarılar⚠️
+programda yedek veya 2. şifre yoktur şfirelrini unutmayın dikkatli olun tamamen yasal kullanım sorumluluk herşey kullanıcıya aittir iyi kullanımlar
