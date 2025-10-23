@@ -83,44 +83,11 @@ Sistem Gereksinimleri
 
 İşletim Sistemi: Windows 7 / 10 / 11 (64-bit önerilir)
 RAM: Minimum 2 GB
-Disk Alanı: 50 MB serbest alan
+Disk Alanı: 100 MB serbest alan
 Yönetici Hakları: Zorunlu
 
-Yazılım Gereksinimleri
-
-Python: 3.8 veya üstü
-pip: Python paket yöneticisi
-
-Gerekli Python Paketleri
-bashpip install pyqt5 pywin32
-veya requirements.txt dosyası ile:
-bashpip install -r requirements.txt
-requirements.txt içeriği:
-txtpyqt5>=5.15.0
-pywin32>=300
-
-📥 Kurulum
-Adım 1: Python'u Yükleyin
-Python resmi web sitesinden Python 3.8 veya üstünü indirin ve yükleyin.
-Önemli: Kurulum sırasında "Add Python to PATH" seçeneğini işaretleyin.
-Adım 2: Projeyi İndirin
-bashgit clone https://github.com/kullaniciadi/servicehash.git
-cd servicehash
-veya ZIP olarak indirip çıkarın.
-Adım 3: Bağımlılıkları Yükleyin
-bashpip install -r requirements.txt
-Adım 4: Lisans Dosyasını Ekleyin
-Proje dizinine LICENSE dosyası ekleyin:
-bashcurl https://www.gnu.org/licenses/gpl-3.0.txt -o LICENSE
-
 ▶️ Nasıl Çalıştırılır
-Temel Çalıştırma
-Yönetici olarak çalıştırmalısınız (sistem hook'ları ve kayıt defteri erişimi için gerekli):
-bashpython servicehash.py
-veya Windows'ta:
-
-servicehash.py dosyasına sağ tıklayın
-"Yönetici olarak çalıştır" seçeneğini seçin
+python servicehash.py veya relase kısmından indiriniz
 
 İlk Kurulum Sihirbazı
 İlk çalıştırmada kurulum sihirbazı açılır:
