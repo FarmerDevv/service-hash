@@ -122,7 +122,6 @@ USB Tekrar Takıldı: Sistem otomatik olarak açılır
 
 EXE Dosyası Oluşturma
 Taşınabilir tek dosya çalıştırılabilir oluşturmak için:
-bashpip install pyinstaller
 pyinstaller --onefile --windowed --icon=icon.ico --uac-admin servicehash.py
 ```
 
